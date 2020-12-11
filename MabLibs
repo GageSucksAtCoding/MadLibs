@@ -1,0 +1,26 @@
+print("Welcome to MadLibs!!!")
+print("Enter a random word or phrase of your choosing for each prompt below:")
+
+Title     = input("Title = ").upper()
+Place     = input("Place = ").upper()
+Date      = input("Date = ").upper()
+Name      = input("Name = ").upper()
+Clothes   = input("Clothes = ").upper()
+CatchPhrase   = input("Catch Phrase = ").upper()
+Friend    = input("Friend = ").upper()
+Monster   = input("Monster = ").upper()
+Weapon    = input("Weapon = ").upper()
+Treasure  = input("Treasure = ").upper()
+MonsterSays = input("MonsterSays = ").upper()
+
+print(Title)
+print("The date was " + Date)
+print(" and I had just made it to " + Place + " where me and my friend " + Friend + " had traveled to because of some rumors of a hidden treasure somewhere hidden in this area of the world called the " + Treasure + ", and I knew that if anyone was going to find that treasure it would be me, " + Name + " and my friend " + Friend + "!")
+
+print(" First we headed to the local tavern to hopefully find some useful information on the location of the " + Treasure + ". The first person we asked was the tavern keeper who was managing the bar in the back of the tavern, and he asked us if we were up to the challenge of finding the " + Treasure + ", which I said yes too. Then he told us that the journey forth would be hard and dangerous and that there was supposedly an ancient monster called the " + Monster + ", who was said to feed on anyone and anything that would get to close to the main area of the " + Treasure + ". He then looked around to make sure if anyone was paying attention, then slipped me a map. This should take you to the " + Treasure + ".")
+
+print(" After this, " + Friend + " and I made our way in the direction that the map had told us to go to get to the " + Treasure + " and along the way, we were stopped by a loud thumping that was coming from in front of us, and slowly stepped out from the forest was a huge horrific monster. It looked at me and " + Friend + " as if hungry and wanting to eat us right where we stood. Then the monster said " + MonsterSays + ".")
+
+print("After the monster says that horrifying thing, I took out my " + Weapon + " and attempted to kill the fiendish monster that stood before me and " + Friend + ". After many attempts the monster " + Monster + " was defeated by my " + Weapon + " and me and " + Friend + " went on our way toward where the  " + Treasure + " layed, waiting for someone to just go and take it. So after a little while longer we made it to the ancient temple that held the " + Treasure + " and finnaly felt that we had completed our quest, and also at that moment I realised that my clothes, " + Clothes + " were super filthy. But no matter that, I was so happy that me and " + Friend + " were okay after what we had to go through to get here, in fact I was so happy I just had to yell something that I have said for the longest time, and I yelled out " + CatchPhrase + "!!!")
+
+print("***THE END...?***")
